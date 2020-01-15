@@ -1,0 +1,91 @@
+:root{
+    --pageWidth: 830px;
+}
+
+body{
+    background: #C2F1F2;
+    font-size: 100%;
+    min-width: var(--pageWidth);
+}
+
+div.title {
+    font-size: xx-large;
+    width: var(--pageWidth);
+    height: 160px;
+    margin: auto;
+    text-align: center;
+    font-size: 300%;
+}
+
+div.title h1 {
+    height: 160px;
+}
+
+div.title img{
+    float: left;
+}
+
+div.button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: var(--pageWidth);
+    background-color: #FF8A8A;
+    border: solid black;
+}
+
+button:hover {
+    background-color: rgb(228, 111, 111);
+    transition: background-color 0.3s ;
+}
+
+button {
+    width: 100%;
+    background: #FF8A8A;
+    border-width: 0px;
+    color: black;
+    font-size: 500%;
+  }
+
+div.HowToPlay {
+    border: solid black;
+    background-color: #FF8A8A;
+    width: var(--pageWidth);
+    margin: auto;
+    text-align: center;
+}
+
+h3 {
+    margin-left: 2px;
+}
+
+div.statistics {
+    width: var(--pageWidth);
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+div.gamesPlayed {
+    background: lightgrey;
+    border: solid black;
+    float: left;
+    width: 210px;
+}
+
+div.codesCracked{
+    margin-left: 305px;
+    background: lightgrey;
+    border: solid black;
+    width: 210px;
+}
+
+div.playersOnline{
+    background: lightgrey;
+    border: solid black;
+    float: right;
+    width: 210px;
+}

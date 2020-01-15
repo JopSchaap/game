@@ -1,0 +1,32 @@
+:root{
+    --gameboardWidth: 200px;
+    --rowHeight: 30px
+}
+
+body{
+    background-color: #C2F1F2;
+}
+
+div.you{
+    text-align: center;
+    float: left;
+}
+
+div.opponent {
+    text-align: center;
+    float: right;
+}
+
+div.gameboard{
+    width: var(--gameboardWidth);
+    height: calc(12 * (var(--rowHeight) + 2));
+    background-color: #D9BD7E;
+    border-width: 2px;
+    border: solid black;
+}
+
+div.gameboard div.line {
+    width: var(--gameboardWidth);
+    height: var(--rowHeight);
+    border: solid black;
+}
